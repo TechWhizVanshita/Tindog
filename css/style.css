@@ -1,0 +1,247 @@
+body{
+    font-size: 600;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+@media (max-width: 1187px){
+  #title{
+    text-align: center;
+  }
+}
+
+h1 ,h3{
+
+    font-family: 'Montserrat';
+  
+    font-size: 3.6rem;
+  
+    line-height: 1.5;
+  
+  }
+
+  .container-fluid{
+    padding: 3% 15% 7% !important;
+
+  }
+
+ 
+  @media (max-width: 1187px) {
+    .col-lg-6.buttons {
+        height: 100px;
+        overflow: auto;
+    }
+}
+  /* Navigation Bar */
+
+
+  .navbar{
+    padding-bottom: 80px;
+  }
+
+
+  nav{
+    font-size: larger;
+  }
+  .navbar-brand{
+    margin-right: 10px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .nav-item{
+
+    padding: 0 18px;
+  }
+
+  .nav-link{
+    font-size: 1.3rem;
+  
+  }
+  
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 80px;
+}
+
+
+/* Features Section */
+
+#features{
+  padding: 9% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+  margin-top: -15%;
+ 
+}
+
+.feature-box{
+  text-align: center;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  color: #8f8f8f;
+  font-size: 20px;
+}
+
+.fa{
+  margin: 1.5rem;
+}
+.fa:hover{
+ color: #ff4c68 !important;
+ 
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 9% 15%; 
+}
+h3{
+  text-align: center; 
+}
+
+/* Pricing section */
+#pricing{
+   padding: 100px;
+   text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 991px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px)
+{
+  .btn{
+    margin: 0 10px;
+  }
+}
+
+/* Call to action */
+
+#cta{
+  background-color: #ff4c68;
+  color:#fff;
+  height: 889px;
+  margin-top: 15px;
+  padding-top: 85px;
+  text-align: center;
+
+}
+
+
+.cta-heading{
+  font-weight: bold;
+  font-size: 55px;
+}
+
+
+
+
+/* footer section */
+
+footer{
+text-align: center;
+margin-top: 150px;
+background-color: #fff;
+margin-bottom: 200px;
+}
+.icon{
+  margin-inline: 15px;
+  margin-bottom: 34px;
+}
+
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+.download-button-bottom {
+  margin: 9% 1% 5% 8%;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 14px;
+}
+
+@media (max-width:768px) {
+    .download-button-bottom {
+        margin-right:0;
+    }
+}
+
+@media (max-width:576px) {
+    .download-button-bottom {
+        font-size:12px;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin-right:0;
+    }
+}
+
+/* video */
+video{
+    margin-top: 14px;
+    margin-bottom: auto;
+}
