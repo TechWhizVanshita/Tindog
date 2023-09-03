@@ -29,7 +29,7 @@ Tindog is a simple and engaging website designed to demonstrate key web developm
 
 ## Demo
 
-You can access the live demo of the Tindog website [here](https://your-tindog-website-url.com).
+You can access the live demo of the Tindog website [here]( https://vanshita-80048.github.io/Tindog/).
 
 ## Installation
 
