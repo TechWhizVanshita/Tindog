@@ -36,7 +36,7 @@ You can access the live demo of the Tindog website [here]( https://vanshita-8004
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/tindog.git
+   git clone https://github.com/vanshita-80048/tindog.git
 2. Navigate to the project folder:
 
 cd tindog
